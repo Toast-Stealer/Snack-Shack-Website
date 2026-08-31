@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Snack Shack lunch menu, pickup information, and payment options." />
+    <title>The Snack Shack | Lunch Menu</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#menu" aria-label="The Snack Shack menu">The Snack Shack</a>
+      <nav aria-label="Primary navigation">
+        <a href="#menu">Menu</a>
+        <a href="#details">Pickup &amp; pay</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="awning" aria-hidden="true"></div>
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">STUDENT-RUN • LUNCHTIME</p>
+          <h1 id="page-title">Step right up<br />to the shack.</h1>
+          <p class="intro-copy">A cheerful little stand for lunch-break favorites. See today’s full selection, then find us at the Student Center.</p>
+          <a class="button" href="#menu">See what’s in stock <span aria-hidden="true">↓</span></a>
+        </div>
+        <aside class="today-card" aria-label="Today's Snack Shack hours">
+          <p class="card-label">OPEN TODAY</p>
+          <p class="hours">11:45 AM<br /><span>– 1:05 PM</span></p>
+          <p class="location">Student Center lobby<br />by the blue lockers</p>
+        </aside>
+      </section>
+
+      <section class="menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TODAY’S COUNTER</p>
+            <h2 id="menu-title">Pick your snack</h2>
+          </div>
+          <p class="stock-note"><span class="dot" aria-hidden="true"></span> Green dot = in stock today</p>
+        </div>
+
+        <div class="snack-grid">
+          <article class="snack-card"><img loading="lazy" src="https://images.unsplash.com/photo-1679943366650-3cbab5ce5ff4?auto=format&fit=crop&w=500&q=85" alt="Chocolate chip cookies" /><div class="card-content"><h3>Chocolate chip cookies</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://mindfulmocktail.com/wp-content/uploads/2022/04/easy-fruit-punch-non-alcoholic-768x1152.jpg" alt="Fruit punch drink" /><div class="card-content"><h3>Fruit punch</h3><p>$1.50</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://images.unsplash.com/photo-1730847929044-390c1dad5fbc?auto=format&fit=crop&w=500&q=85" alt="Cheese pizza slice" /><div class="card-content"><h3>Cheese pizza slice</h3><p>$2.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=500&q=85" alt="Potato chips" /><div class="card-content"><h3>Classic potato chips</h3><p>$1.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://i.pinimg.com/736x/a2/79/17/a27917b31431d67a00a7b6d2306ec8cc.jpg" alt="Fudge brownie squares" /><div class="card-content"><h3>Fudge brownie</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://images.unsplash.com/photo-1682970468783-0cc45cfdd1b6?auto=format&fit=crop&w=500&q=85" alt="Buttered popcorn" /><div class="card-content"><h3>Buttered popcorn</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://images.unsplash.com/photo-1688841914419-482222767a22?auto=format&fit=crop&w=500&q=85" alt="Vanilla ice cream cone" /><div class="card-content"><h3>Vanilla ice cream</h3><p>$2.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=500&q=85" alt="Chocolate candy bar" /><div class="card-content"><h3>Chocolate bar</h3><p>$1.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=500&q=85" alt="Strawberry gummy candy" /><div class="card-content"><h3>Gummy candy pack</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=85" alt="Fresh fruit cup" /><div class="card-content"><h3>Fresh fruit cup</h3><p>$2.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=500&q=85" alt="Pretzels" /><div class="card-content"><h3>Salted pretzels</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=500&q=85" alt="Peanut butter candy bar" /><div class="card-content"><h3>Peanut butter cup</h3><p>$1.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1575377427642-087cf684f29d?auto=format&fit=crop&w=500&q=85" alt="Sugar cookies" /><div class="card-content"><h3>Sugar cookies</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=85" alt="Nacho chips" /><div class="card-content"><h3>Nacho chips</h3><p>$1.50</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=500&q=85" alt="Grilled cheese sandwich" /><div class="card-content"><h3>Grilled cheese</h3><p>$2.50</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=85" alt="Rice crispy treat" /><div class="card-content"><h3>Rice crispy treat</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=500&q=85" alt="Sour gummy candy" /><div class="card-content"><h3>Sour gummy worms</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=500&q=85" alt="Cheese puffs" /><div class="card-content"><h3>Cheese puffs</h3><p>$1.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1599599810694-b5b37304c041?auto=format&fit=crop&w=500&q=85" alt="Lemonade drink" /><div class="card-content"><h3>Fresh lemonade</h3><p>$1.50</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img loading="lazy" src="https://images.unsplash.com/photo-1564249484723-8303f8ee99e4?auto=format&fit=crop&w=500&q=85" alt="Pepperoni pizza slice" /><div class="card-content"><h3>Pepperoni pizza slice</h3><p>$2.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=85" alt="Blondie bar" /><div class="card-content"><h3>Chocolate blondie</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=85" alt="Kettle corn" /><div class="card-content"><h3>Kettle corn</h3><p>$1.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=500&q=85" alt="Chocolate ice cream cone" /><div class="card-content"><h3>Chocolate ice cream</h3><p>$2.00</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=85" alt="Apple slices" /><div class="card-content"><h3>Apple slices</h3><p>$1.25</p><span class="item-stock"><i></i>In stock</span></div></article>
+          <article class="snack-card"><img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=500&q=85" alt="Trail mix" /><div class="card-content"><h3>Trail mix</h3><p>$1.50</p><span class="item-stock"><i></i>In stock</span></div></article>
+        </div>
+      </section>
+
+      <section class="details" id="details" aria-labelledby="details-title">
+        <div class="details-intro">
+          <p class="eyebrow">GOOD TO KNOW</p>
+          <h2 id="details-title">Grab it and go.</h2>
+          <p>Everything you need before you stop by.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon" aria-hidden="true">⌖</div>
+          <div><h3>Pick up</h3><p>Student Center lobby, by the blue lockers.<br />Weekdays, 11:45 AM–1:05 PM.</p></div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon" aria-hidden="true">$</div>
+          <div><h3>How to pay</h3><p>Cash or Venmo accepted.<br />Please bring exact change when you can.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>The Snack Shack</span>
+      <a href="#menu">Back to menu ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
